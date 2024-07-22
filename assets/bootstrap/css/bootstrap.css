@@ -4420,8 +4420,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
     box-shadow: none;
   }
   .navbar-collapse.collapse {
-    /* display: block !important; */
-    /* height: auto !important; */
+    display: flex;
+    align-items: center;
     padding-bottom: 0;
     /* overflow: visible !important; */
   }
@@ -4434,6 +4434,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
     padding-right: 0;
     padding-left: 0;
   }
+}
+
+.header-address {
+  display: flex;
 }
 
 .container > .navbar-header,
