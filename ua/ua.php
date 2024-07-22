@@ -12,9 +12,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Реклама в интернете | Интернет маркетинг</title>
-<meta name="description" content="Реклама в интернете, интернет маркетинг, контекстная реклама">
-	<meta name="keywords" content="реклама,маркетинг,заказать рекламу,создание рекламы,контекстная,контекстная реклама,Googleреклама">
+<title>Реклама в інтернеті | Інтернет маркетинг</title>
+
 <!-- Google fonts -->
 
 
@@ -66,14 +65,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
             <!-- Nav Starts -->
             <div class="navbar-collapse  collapse">
-
               <ul class="nav navbar-nav navbar-right scroll">
-           <li class="active"><a href="#home">ГЛАВНАЯ</a></li>
+           <li class="active"><a href="#home">ГОЛОВНА</a></li>
                  <li ><a href="#about">РЕКЛАМА</a></li>
-                 <li ><a href="#contact">ЗАКАЗАТЬ</a></li>
+                 <li ><a href="#works">ЗАМОВИТИ</a></li>
 				 <li ><a>+380991292962</a></li>
               </ul>
-				<a href="ua.htm">ua</a> <a class="active" href="/">ru</a>
             </div>
             <!-- #Nav Ends -->
 
@@ -98,8 +95,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             	<div class="caption-wrapper">
             		<div class="caption-info">
             		<img src="images/logobig.png" class="animated bounceInUp" alt="logo">
-              		<h1 class="animated bounceInLeft">реклама в интернете</h1>
-              		<p class="animated bounceInRight">У нас самая прогрессивная команда, которая живет и дышит созданием рекламы.</p>
+              		<h1 class="animated bounceInLeft">реклама в інтернеті</h1>
+              		<p class="animated bounceInRight">У нас сама прогресивна команда, яка живе та дихає створенням реклами.</p>
               		<div class="scroll animated fadeInUp"> <a href="#contact" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Запусти свою рекламу</a></div>
               		</div>
               	</div>
@@ -114,9 +111,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             	<div class="caption-wrapper">
             		<div class="caption-info">
                 <img src="images/logobig.png" class="animated bounceInUp" alt="logo">
-                  <h1 class="animated bounceInLeft">реклама в интернете</h1>
-                  <p class="animated bounceInRight">У нас самая прогрессивная команда, которая живет и дышит созданием рекламы.</p>
-                  <div class="scroll animated fadeInUp"> <a href="#contact" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Запусти свою рекламу</a></div>
+                  <h1 class="animated bounceInLeft">реклама в інтернеті</h1>
+              		<p class="animated bounceInRight">У нас сама прогресивна команда, яка живе та дихає створенням реклами.</p>
+              		<div class="scroll animated fadeInUp"> <a href="#contact" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Запусти свою рекламу</a></div>
                   </div>
                 </div>
             </div>
@@ -130,9 +127,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             	<div class="caption-wrapper">
             		<div class="caption-info">
                 <img src="images/logobig.png" class="animated bounceInUp" alt="logo">
-                  <h1 class="animated bounceInLeft">реклама в интернете</h1>
-                  <p class="animated bounceInRight">У нас самая прогрессивная команда, которая живет и дышит созданием рекламы.</p>
-                  <div class="scroll animated fadeInUp"> <a href="#contact" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Запусти свою рекламу</a></div>
+                  <h1 class="animated bounceInLeft">реклама в інтернеті</h1>
+              		<p class="animated bounceInRight">У нас сама прогресивна команда, яка живе та дихає створенням реклами.</p>
+              		<div class="scroll animated fadeInUp"> <a href="#contact" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Запусти свою рекламу</a></div>
                   </div>
                 </div>
             </div>
@@ -146,9 +143,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             	<div class="caption-wrapper">
             		<div class="caption-info">
                 <img src="images/logobig.png" class="animated bounceInUp" alt="logo">
-                  <h1 class="animated bounceInLeft">реклама в интернете</h1>
-                  <p class="animated bounceInRight">У нас самая прогрессивная команда, которая живет и дышит созданием рекламы.</p>
-                  <div class="scroll animated fadeInUp"> <a href="#contact" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Запусти свою рекламу</a></div>
+                  <h1 class="animated bounceInLeft">реклама в інтернеті</h1>
+              		<p class="animated bounceInRight">У нас сама прогресивна команда, яка живе та дихає створенням реклами.</p>
+              		<div class="scroll animated fadeInUp"> <a href="#contact" class="btn btn-default"><i class="fa fa-paper-plane-o"></i> Запусти свою рекламу</a></div>
                   </div>
                 </div>
             </div>
@@ -162,64 +159,71 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <!-- Cirlce Starts -->
 <div id="about"  class="container spacer about">
-<h2 class="text-center wowload fadeInUp">Хотите продавать больше??? Закажите рекламу!!!</h2>
+<h2 class="text-center wowload fadeInUp">Бажаєте продавати більше??? Замовляйте рекламу!!!</h2>
   <div class="row">
   <div class="col-sm-6 wowload fadeInLeft">
-    <h4><i class="fa fa-paint-brush"></i> Создание & Настройка рекламы</h4>
-    <p>Меня зовут, Александр. Я создаю, настраиваю и запускаю рекламу в интернете. Цель - привести больше клиентов в Ваш бизнес. Есть несколько помощников. Используем лучшие современные инструменты. Следим за новостями и новыми разработками в области интернет маркетинга. Создадим, настроим рекламу для Вашего бизнеса и предоставим поддержку. Хоть нас копируют другие,  мы остаемся доступными для всех. Наша реклама работает на клиента. Убедитесь сами!!!<br> Обойдите своих конкурентов уже сегодня! </p>
+    <h4><i class="fa fa-paint-brush"></i> Створення & Налаштування реклами</h4>
+    <p>Ми створюємо, налаштовуємо та запускаємо рекламу в інтернеті. Мета - привести більше клієнтів у Ваш бізнес. Використовую кращі сучасні інструменти. Слідкую за новинами та новинками в області інтернет маркетинга. Створю, налаштую рекламу для Вашого бізнеса та забезпечу підтримку.  Така реклама працює на клієнта. Переконайтеся самі!!!<br> Обійдіть своїх конкурентів уже сьогодні! </p>
 
 
   </div>
   <div class="col-sm-6 wowload fadeInRight">
   <h4><i class="fa fa-code"></i>Реклама </h4>
-  <p>Интернет маркетинг (интернет-реклама) - практика использования всех аспектов традиционного маркетинга в Интернете. Другими словами - электронная комерция. Интенсивно развивающаяся часть рекламной отрасли. Удобное использование и охват огромной аудитории делает рекламу в интернете самой конкурентно-способной из всех существующих. Не удивительно, что на нее постоянно растет спрос.</p>
+  <p>Інтернет маркетинг (Інтернет-реклама) - практика використання усіх аспектів традиційного маркетинга в інтернеті. Іншими словами - електронна комерція. Це галузь реклами, що вельми інтенсивно розвивається та прогресує. Зручне використання та велетенські обсяги аудиторій, робить цей вид реклами надконкурентною. Отож не дивно, що вона набуває дедалі більшого попиту! </p>
   </div>
   </div>
 </div>
 <!-- #Cirlce Ends -->
 
-    <!-- About Starts -->
-<div class="highlight-info">
-<div class="overlay spacer">
-<div class="container">
-<div class="row text-center  wowload fadeInDownBig">
-    <div class="section__title "><h2>Как мы работаем?</h2></div>
-	<div class="col-sm-3 col-xs-6">
-	<i class="fa fa-smile-o  fa-5x"></i><h4><div class="how__item__img"><img src="images/item.png"></div>
-	<p class="how__item__text">Вы оставляете заявку</p></h4>
-	</div>
-	<div class="col-sm-3 col-xs-6">
-	<i class="fa fa-rocket  fa-5x"></i><h4><div class="how__item__img"><img src="images/item1.png"></div>
-	<p class="how__item__text">Мы с Вами связываемся</p></h4>
-	</div>
-	<div class="col-sm-3 col-xs-6">
-	<i class="fa fa-cloud-download  fa-5x"></i><h4><div class="how__item__img"><img src="images/item2.png"></div>
-	<p class="how__item__text">Обсуждение стратегии</p></h4>
-	</div>
-	<div class="col-sm-3 col-xs-6">
-	<i class="fa fa-map-marker fa-5x"></i><h4><div class="how__item__img"><img src="images/item3.png"></div>
-	<p class="how__item__text">Выполнение заказа</p></h4>
-	</div>
+    <div id="works"  class=" clearfix grid">     
+    <div class="section__title ">
+        <h2>Як ми працюємо?</h2>
+    </div>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/5.jpg" alt="img01"/>
+        <figcaption>
+            <h2>1 крок</h2>
+            <p>ви залишаєте заявку за допомогою форми</p>   </figcaption>
+    </figure>
+   
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/3.jpg" alt="img01"/>
+        <figcaption>
+            <h2>2 крок</h2>
+            <p>ми Вам телефонуємо, приймаємо замовлення</p>       
+        </figcaption>
+    </figure>
+        <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/6.jpg" alt="img01"/>
+        <figcaption>
+            <h2>3 крок</h2>
+            <p>Складаємо комерційну пропозицію</p>            
+        </figcaption>
+    </figure>
+   
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/4.jpg" alt="img01"/>
+        <figcaption>
+            <h2>4 крок</h2>
+            <p>Ви погоджуєте, та й до справи!</p>            
+        </figcaption>
+    </figure>
 </div>
-</div>
-</div>
-</div>
-<!-- About Ends -->
-
+    
 <div id="contact" class="spacer">
+
 <!--Contact Starts-->
 
-
-	<div id="contact" class="spacer">
+	<div class="spacer">
 		<div class="container contactform center">
-<h2 class="text-center  wowload fadeInUp">Свяжитесь с нами, чтобы начать свой проект</h2>
-	<form class="formUp">
-
-		 <div class="row wowload fadeInLeftBig">
+<h2 class="text-center  wowload fadeInUp"> заповніть коротеньку форму</h2>
+            
+	<form>
+<div class="row wowload fadeInLeftBig">
       <div class="col-sm-6 col-sm-offset-3 col-xs-12">
 
 		<!-- Hidden Required Fields -->
-		<input type="hidden" name="project_name" value="modelin.com.ua">
+		<input type="hidden" name="project_name" value="modelin.ua">
 		<input type="hidden" name="admin_email" value="kapillar@ukr.net">
 		<input type="hidden" name="form_subject" value="заявка новая">
 		<!-- END Hidden Required Fields -->
@@ -227,14 +231,33 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<input type="text" name="Name" placeholder="name..." required><br>
 		<input type="text" name="E-mail" placeholder="E-mail..." required><br>
 		<input type="text" name="Phone" placeholder="phone..." required><br>
-		<button  class="btn btn-primary">НАЧАТЬ</button>
-</div>
+		<button  class="btn btn-primary">ЗВЕРНУТИСЯ</button>
+      </div>
 </div>
 	</form>
-	</div>
+<div id="works"  class=" clearfix grid">     
+    <div class="section__title ">
+        <h2>ще кілька варіантів</h2>
+    </div>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/1_1.jpg" alt="img01"/>
+        <figcaption>            
+            <p>проскануй код щоби подзвонити</p>            
+        </figcaption>
+    </figure>
+   
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/1_2.jpg" alt="img01"/>
+        <figcaption>
+            <h2>e-mail</h2>
+            <p>напишіть нам листа</p>            
+        </figcaption>
+    </figure>
 </div>
-	</div>
-<!--Contact Ends-->
+        </div>
+    </div>
+    </div>
+       <!--Contact Ends--> 
 
 
 
