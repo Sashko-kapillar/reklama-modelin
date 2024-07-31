@@ -63,14 +63,15 @@ height="0" width="0" style="display:none;visibility:hidden">
               <!-- </div> -->
               
          <ul class="nav navbar-nav navbar-right scroll">
-            <li class="active"><a href="#home">ГОЛОВНА</a></li>
-            <li ><a href="#about">РЕКЛАМА</a></li>
-            <li ><a href="#works">ЗАМОВИТИ</a></li>
+            <li class="active nav-btn"><a href="#home">головна</a></li>
+            <li class="nav-btn"><a href="#about">реклама</a></li>
+            <li class="nav-btn"><a href="#works">замовити</a></li>
          </ul>
         </nav>
         <address class="header-address">
           <a href="tel:+380991292962">+380991292962</a>              
         </address>
+
               <!-- #Nav Ends -->
       </div>
     </header>
@@ -212,27 +213,26 @@ height="0" width="0" style="display:none;visibility:hidden">
   <!--Contact Starts-->
   
   	<div class="spacer">
-  		<div class="container contactform center">
-  <h2 class="text-center  wowload fadeInUp"> заповніть коротеньку форму</h2>
+  		<div class="container contactform center" id="works">
+        <h2 class="text-center  wowload fadeInUp"> заповніть коротеньку форму</h2>
+  	        <form method="post">
+              <div class="row wowload fadeInLeftBig">
+                <div class="col-sm-6 col-sm-offset-3 col-xs-12">
   
-  	<form method="post">
-  <div class="row wowload fadeInLeftBig">
-        <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+  		                <!-- Hidden Required Fields -->
+  		            <input type="hidden" name="project_name" value="modelin.ua">
+  		            <input type="hidden" name="admin_email" value="kapillar@ukr.net">
+  		            <input type="hidden" name="form_subject" value="нова заявка">
+  		            <!-- END Hidden Required Fields -->
   
-  		<!-- Hidden Required Fields -->
-  		<input type="hidden" name="project_name" value="modelin.ua">
-  		<input type="hidden" name="admin_email" value="kapillar@ukr.net">
-  		<input type="hidden" name="form_subject" value="нова заявка">
-  		<!-- END Hidden Required Fields -->
-  
-  		<input type="text" name="Name" placeholder="name..." required><br>
-  		<input type="text" name="E-mail" placeholder="E-mail..." required><br>
-  		<input type="text" name="Phone" placeholder="phone..." required><br>
-  		<button  class="btn btn-primary">ЗВЕРНУТИСЯ</button>
-        </div>
-  </div>
-  	</form>
-  <div id="works"  class=" clearfix grid">
+  		            <input type="text" name="Name" placeholder="name..." required><br>
+  		            <input type="text" name="E-mail" placeholder="E-mail..." required><br>
+  		            <input type="text" name="Phone" placeholder="phone..." required><br>
+  		            <button  class="btn btn-primary">звернутися</button>
+                </div>
+              </div>
+  	        </form>
+  <div class="clearfix grid">
       <div class="section__title ">
           <h2>ще кілька варіантів</h2>
       </div>
