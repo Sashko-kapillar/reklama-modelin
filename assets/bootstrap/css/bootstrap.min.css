@@ -3976,6 +3976,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-right: auto;
   padding: 7px;
 }
+
+@media screen and (min-width: 1200px) {
+  .navbar-brand {
+    margin-right: 80px;
+  }
+}
+
 .navbar-brand:hover,
 .navbar-brand:focus {
   text-decoration: none;
