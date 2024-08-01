@@ -78,11 +78,11 @@ p {
   height: 100%;
 }
 
-@media screen and (width: 768px) {
+/* @media screen and (width: 768px) {
   .container {
     padding: 0 80px;
   }
-}
+} */
 
 img {
   display: block;
@@ -182,9 +182,6 @@ img {
 @media screen and (min-width: 768px) {
   .nav-item {
     display: flex;
-  }
-  .nav-logo {
-    width: 160px;
   }
 }
 
@@ -499,9 +496,6 @@ img {
   }
   .navbar-nav > li > a {
     line-height: 1em;
-  }
-  .navbar-brand {
-    padding: 7px;
   }
 
   .navbar-toggle {
