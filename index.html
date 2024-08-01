@@ -57,19 +57,35 @@ height="0" width="0" style="display:none;visibility:hidden">
         <nav class="navbar-collapse">
                 <!-- Logo Starts -->
           <a href="/index.html" class="navbar-brand">
-            <img src="./images/logobig.png" alt="logo" width="120" height="32">
+            <img class="nav-logo" src="./images/logobig.png" alt="logo" width="120" height="32">
           </a>
                 <!-- #Logo Ends -->  
               <!-- </div> -->
               
          <ul class="nav navbar-nav navbar-right scroll">
-            <li class="active nav-btn"><a href="#home">головна</a></li>
-            <li class="nav-btn"><a href="#about">реклама</a></li>
-            <li class="nav-btn"><a href="#works">замовити</a></li>
+            <li class="active nav-item"><a href="#home">головна</a></li>
+            <li class="nav-item"><a href="#about">реклама</a></li>
+            <li class="nav-item"><a href="#contact">замовити</a></li>
+            
          </ul>
         </nav>
         <address class="header-address">
-          <a href="tel:+380991292962">+380991292962</a>              
+          <a class="address-phone" href="tel:+380991292962">+380991292962</a>  
+          <ul class="address-list">
+            <li class="nav-item-svg svg-hidden"><a href="#contact">
+              <svg class="nav-svg-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-email" class="footer-icon-use"></use>
+              </svg>
+            </a>
+          </li>
+            <li class="nav-item-svg">
+              <a href="tel:+380991292962">
+                <svg class="nav-svg-icon" width="20" height="20">
+                  <use href="./images/icons.svg#icon-phone" class="footer-icon-use"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>            
         </address>
 
               <!-- #Nav Ends -->
@@ -213,7 +229,7 @@ height="0" width="0" style="display:none;visibility:hidden">
   <!--Contact Starts-->
   
   	<div class="spacer">
-  		<div class="container contactform center" id="works">
+  		<div class="container contactform center">
         <h2 class="text-center  wowload fadeInUp"> заповніть коротеньку форму</h2>
   	        <form method="post">
               <div class="row wowload fadeInLeftBig">
