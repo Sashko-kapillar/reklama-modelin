@@ -156,6 +156,10 @@ img {
 
 /* ======  Header  ======= */
 
+.header-address {
+  display: flex;
+}
+
 .nav-item-svg {
   display: flex;
   align-items: center;
