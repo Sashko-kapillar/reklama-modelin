@@ -135,8 +135,8 @@ img {
 
 .btn {
   border: none;
-  border-radius: 0;
-  padding: 1em 4em;
+  border-radius: 8px;
+  padding: 4px 8px;
   background: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
@@ -301,10 +301,10 @@ img {
 }
 .caption-info p {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  max-width: 264px;
+  max-width: 296px;
   border: 1px solid #aaa;
   padding: 4px;
   background: rgba(0, 0, 0, 0.3);
@@ -312,14 +312,11 @@ img {
 
 @media screen and (min-width: 768px) {
   .caption-info p {
-    font-size: 1.2em;
+    font-size: 16px;
     max-width: 50%;
   }
 }
 
-.caption-info .btn i {
-  margin-right: 0.75em;
-}
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 100%;
@@ -503,9 +500,7 @@ img {
   h4 {
     font: 300 1.3em Roboto, Arial, Helvetica;
   }
-  .btn {
-    padding: 1em 2em;
-  }
+
   .partners img {
     margin: 0 15px 25px 0;
     width: 157px;
