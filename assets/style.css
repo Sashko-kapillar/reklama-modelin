@@ -42,10 +42,17 @@ h4 {
   line-height: 1em;
 }
 h1 {
-  font: 700 5em Roboto, Arial, Helvetica;
+  font: 300 1.5em Roboto, Arial, Helvetica;
   margin: 0.25em 0;
   text-transform: uppercase;
 }
+
+@media screen and (width: 375px) {
+  h1 {
+    font: 400 2.5em;
+  }
+}
+
 h2 {
   font: 300 2.5em Roboto, Arial, Helvetica;
   margin-bottom: 1.5em;
@@ -136,6 +143,7 @@ img {
 .btn-default {
   color: #ccc;
   border: 1px solid #aaa;
+  margin-top: 16px;
 }
 .btn-default:hover,
 .btn-default:active {
@@ -249,10 +257,15 @@ img {
 .carousel {
   margin-top: 0;
 }
-
+/* =======  HERO  ======== */
 /* #home {
   padding-top: 6em;
 } */
+
+.logo-hero {
+  max-width: 120px;
+}
+
 .carousel-caption {
   top: 0;
   bottom: 0;
@@ -270,8 +283,17 @@ img {
   vertical-align: middle;
 }
 .caption-info p {
-  font-size: 1.25em;
+  font-size: 1em;
+  max-width: 264px;
 }
+
+@media screen and (width: 768px) {
+  .caption-info p {
+    font-size: 1.25em;
+    max-width: 100%;
+  }
+}
+
 .caption-info .btn i {
   margin-right: 0.75em;
 }
@@ -455,9 +477,6 @@ img {
 }
 
 @media (max-width: 900px) {
-  h1 {
-    font: 700 3.5em Roboto, Arial, Helvetica;
-  }
   h4 {
     font: 300 1.3em Roboto, Arial, Helvetica;
   }
@@ -500,12 +519,6 @@ img {
 
   .navbar-toggle {
     margin-top: 12px;
-  }
-
-  .carousel-caption,
-  .carousel-control,
-  .carousel-indicators {
-    display: none;
   }
 
   h2.text-center {
