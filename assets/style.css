@@ -4,9 +4,9 @@
 }
 
 body {
-  color: #666;
-  font: 300 Roboto, Arial, Helvetica;
-  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background: #fff;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -136,7 +136,7 @@ img {
 .btn {
   border: none;
   border-radius: 8px;
-  padding: 4px 8px;
+  padding: 12px;
   background: rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
 }
