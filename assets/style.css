@@ -52,7 +52,7 @@ h1 {
 @media screen and (min-width: 375px) {
   h1 {
     font-size: 24px;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
   }
 }
 
@@ -92,16 +92,6 @@ p {
   height: 100%;
 }
 
-@media screen and (width: 768px) {
-  .container {
-    padding: 0 24px;
-  }
-
-  .section {
-    padding: 40px 0;
-  }
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -119,21 +109,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.heder {
-  display: flex;
-  height: 72px;
-}
-
-@media screen and (min-width: 768px) {
-  .heder {
-    height: 92px;
-  }
-
-  .svg-hidden {
-    display: none;
-  }
 }
 
 .btn {
@@ -169,6 +144,40 @@ img {
 }
 
 /* ======  Header  ======= */
+
+.heder {
+  display: flex;
+  height: 72px;
+}
+
+@media screen and (min-width: 768px) {
+  .heder {
+    height: 92px;
+  }
+
+  .svg-hidden {
+    display: none;
+  }
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 24px;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+}
 
 .header-address {
   display: flex;
@@ -226,14 +235,6 @@ img {
   }
 }
 
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  width: 100%;
-}
-
 .navbar-collapse {
   padding: 0;
 }
@@ -265,6 +266,10 @@ img {
   margin-top: 0;
 }
 /* =======  HERO  ======== */
+
+.section-hero {
+  padding-top: 0;
+}
 
 .logo-hero {
   max-width: 30%;
