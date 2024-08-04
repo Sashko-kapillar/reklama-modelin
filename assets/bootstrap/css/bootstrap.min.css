@@ -1028,15 +1028,7 @@ h6 .small,
   line-height: 1;
   color: #777;
 }
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
+
 h1 small,
 .h1 small,
 h2 small,
@@ -1078,13 +1070,11 @@ h1,
 .h1 {
   font-size: 36px;
 }
-h2,
-.h2 {
-  font-size: 30px;
-}
+
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 20px;
+  margin-bottom: 16px;
 }
 h4,
 .h4 {
@@ -1098,9 +1088,7 @@ h6,
 .h6 {
   font-size: 12px;
 }
-p {
-  margin: 0 0 10px;
-}
+
 .lead {
   margin-bottom: 20px;
   font-size: 16px;
@@ -1130,9 +1118,7 @@ mark,
 .text-right {
   text-align: right;
 }
-.text-center {
-  text-align: center;
-}
+
 .text-justify {
   text-align: justify;
 }
