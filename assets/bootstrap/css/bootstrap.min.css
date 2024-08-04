@@ -1362,11 +1362,6 @@ pre code {
   overflow-y: scroll;
 }
 
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
 @media (min-width: 992px) {
   .container {
     width: 970px;
@@ -1639,8 +1634,14 @@ pre code {
   }
   .col-sm-6 {
     width: 45%;
-    width: calc((100% - 24) / 2);
+    width: calc((100% - 24px) / 2);
   }
+
+  .row > .col-sm-6 {
+    width: 100%;
+    margin: 0;
+  }
+
   .col-sm-5 {
     width: 41.66666667%;
   }

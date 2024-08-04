@@ -442,6 +442,19 @@ img {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+  .portfolio-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 768px;
+    gap: 24px 24px;
+  }
+}
+
+.portfolio-item {
+  width: calc((100% - 24px) / 2);
+}
+
 #works figcaption a {
   border: 1px solid #fff;
   margin-top: 1em;
