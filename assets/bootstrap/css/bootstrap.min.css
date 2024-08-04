@@ -908,10 +908,7 @@ textarea {
   font-size: inherit;
   line-height: inherit;
 }
-a {
-  color: #428bca;
-  text-decoration: none;
-}
+
 a:hover,
 a:focus {
   color: #2a6496;
@@ -1074,7 +1071,7 @@ h1,
 h3,
 .h3 {
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 h4,
 .h4 {
@@ -1438,8 +1435,6 @@ pre code {
 .col-lg-12 {
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 .col-xs-1,
 .col-xs-2,
@@ -1457,6 +1452,7 @@ pre code {
 }
 .col-xs-12 {
   width: 100%;
+  padding: 0 80px;
 }
 .col-xs-11 {
   width: 91.66666667%;
@@ -1642,7 +1638,8 @@ pre code {
     width: 58.33333333%;
   }
   .col-sm-6 {
-    width: 50%;
+    width: 45%;
+    width: calc((100% - 24) / 2);
   }
   .col-sm-5 {
     width: 41.66666667%;

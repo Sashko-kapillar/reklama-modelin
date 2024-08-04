@@ -17,7 +17,7 @@ ol {
 }
 
 a {
-  color: #00a9c6;
+  color: #428bca;
   text-decoration: none;
 }
 a:hover {
@@ -353,7 +353,29 @@ img {
 .about-list {
   flex-direction: column;
   gap: 24px;
+  max-width: 320px;
+  margin: 0 auto;
 }
+
+@media screen and (min-width: 768px) {
+  .about-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  /* .about-item {
+    width: calc((100% - 24) / 2);
+  } */
+}
+
+@media screen and (min-width: 1200px) {
+  .about-list {
+    max-width: 1200px;
+  }
+}
+
 .aboutus-text {
   font-weight: 400;
   font-size: 18px;
@@ -404,13 +426,21 @@ img {
   font-weight: 400;
 }
 .carousel-indicators li {
-  border: 1px solid #2bb2e3;
+  border: 1px solid #428bca;
 }
 .carousel-indicators {
   bottom: 0;
 }
 
 /*works*/
+/* =======   Portfolio   ======= */
+
+.portfolio-list {
+  flex-direction: column;
+  gap: 4px;
+  max-width: 320px;
+  margin: 0 auto;
+}
 
 #works figcaption a {
   border: 1px solid #fff;
@@ -441,7 +471,7 @@ img {
   font-size: 2em;
 }
 .team a i.fa:hover {
-  color: #21abca;
+  color: #428bca;
 }
 
 .highlight-info {
@@ -467,6 +497,23 @@ img {
   margin-bottom: 1em;
   border-radius: 0;
   outline: none;
+}
+
+.contacts-mail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 320px;
+  padding: 16px;
+  background-color: #aaa;
+  margin: 0 auto;
+  visibility: visible;
+  animation-name: fadeInLeft;
+}
+
+.contact-mail {
+  font-size: 20px;
+  font-weight: lighter;
 }
 /*contact end   ======== */
 
@@ -512,7 +559,7 @@ img {
   line-height: 0.5em;
 }
 
-@media screen and(mix-width: 1200px) {
+@media screen and(min-width: 1200px) {
   body {
     font: 300 13px/13px Roboto, Arial, Helvetica;
   }
@@ -544,7 +591,7 @@ img {
   }
 }
 
-@media (max-width: 900px) {
+@media screen and (min-width: 900px) {
   h4 {
     font: 300 1.3em Roboto, Arial, Helvetica;
   }
@@ -609,6 +656,7 @@ img {
   .about.spacer {
     padding-left: 2em;
     padding-right: 2em;
+    max-width: 320px;
   }
 
   .process ul li {

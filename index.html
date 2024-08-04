@@ -267,7 +267,7 @@ height="0" width="0" style="display:none;visibility:hidden">
             Що більше рекламуєш то більше продаєш!!!
           </h2>
           <ul class="about-list">
-            <li class="col-sm-6 wowload fadeInLeft">
+            <li class="col-sm-6 wowload fadeInLeft about-item">
               <h3>Створення & Налаштування</h3>
               <p class="aboutus-text">
                 Ми створюємо, налаштовуємо та запускаємо рекламу в інтернеті.<br />
@@ -317,114 +317,125 @@ height="0" width="0" style="display:none;visibility:hidden">
         </div>
       </section>
 
+      <!-- ========   Portfolio   ========= -->
+
       <section class="section">
-        <div id="works" class="clearfix grid">
-          <div class="section__title">
-            <h2 class="title">Як це працює</h2>
-          </div>
-          <figure class="effect-oscar wowload fadeInUp">
-            <img src="images/portfolio/5.jpg" alt="img01" />
-            <figcaption>
-              <h2>1 крок</h2>
-              <p>ви залишаєте заявку за допомогою форми</p>
-            </figcaption>
-          </figure>
-
-          <figure class="effect-oscar wowload fadeInUp">
-            <img src="images/portfolio/3.jpg" alt="img01" />
-            <figcaption>
-              <h2>2 крок</h2>
-              <p>ми Вам телефонуємо, приймаємо замовлення</p>
-            </figcaption>
-          </figure>
-          <figure class="effect-oscar wowload fadeInUp">
-            <img src="images/portfolio/6.jpg" alt="img01" />
-            <figcaption>
-              <h2>3 крок</h2>
-              <p>Складаємо комерційну пропозицію</p>
-            </figcaption>
-          </figure>
-
-          <figure class="effect-oscar wowload fadeInUp">
-            <img src="images/portfolio/4.jpg" alt="img01" />
-            <figcaption>
-              <h2>4 крок</h2>
-              <p>Ви погоджуєте, та й до справи!</p>
-            </figcaption>
-          </figure>
+        <div id="works" class="clearfix grid container">
+          <h2 class="title">Як це працює</h2>
+          <ul class="portfolio-list">
+            <li class="portfolio-item">
+              <figure class="effect-oscar wowload fadeInUp">
+                <img
+                  src="./images/portfolio/5.jpg"
+                  alt="крок перший-залишаєте заявку"
+                  class="portfolio-img"
+                />
+                <figcaption>
+                  <h3>1 крок</h3>
+                  <p>ви залишаєте заявку за допомогою форми</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-item">
+              <figure class="effect-oscar wowload fadeInUp">
+                <img
+                  src="./images/portfolio/3.jpg"
+                  alt="крок другий-приймаємо замовлення"
+                  class="portfolio-img"
+                />
+                <figcaption>
+                  <h3>2 крок</h3>
+                  <p>ми Вам телефонуємо, приймаємо замовлення</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-item">
+              <figure class="effect-oscar wowload fadeInUp">
+                <img
+                  src="./images/portfolio/6.jpg"
+                  alt="крок третій-складаємо комерційну пропозицію"
+                  class="portfolio-img"
+                />
+                <figcaption>
+                  <h3>3 крок</h3>
+                  <p>Складаємо комерційну пропозицію</p>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="portfolio-item">
+              <figure class="effect-oscar wowload fadeInUp">
+                <img
+                  src="./images/portfolio/4.jpg"
+                  alt="крок четвертий-погодження та виконання"
+                  class="portfolio-img"
+                />
+                <figcaption>
+                  <h2>4 крок</h2>
+                  <p>Ви погоджуєте, та й до справи!</p>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
         </div>
       </section>
 
       <!--====   Contact Starts   ====-->
 
-      <section class="section">
-        <div id="contact" class="spacer">
-          <div class="spacer">
-            <div class="container contactform center">
-              <h2 class="title wowload fadeInUp">заповніть коротеньку форму</h2>
-              <form method="post">
-                <div class="row wowload fadeInLeftBig">
-                  <div class="col-sm-6 col-sm-offset-3 col-xs-12">
-                    <!-- Hidden Required Fields -->
-                    <input
-                      type="hidden"
-                      name="project_name"
-                      value="modelin.ua"
-                    />
-                    <input
-                      type="hidden"
-                      name="admin_email"
-                      value="kapillar@ukr.net"
-                    />
-                    <input
-                      type="hidden"
-                      name="form_subject"
-                      value="нова заявка"
-                    />
-                    <!-- END Hidden Required Fields -->
+      <section class="section" id="contact">
+        <div class="container contactform center">
+          <h2 class="title wowload fadeInUp">заповніть коротеньку форму</h2>
+          <form method="post" style="margin-bottom: 40px">
+            <div class="row wowload fadeInLeftBig">
+              <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="modelin.ua" />
+                <input
+                  type="hidden"
+                  name="admin_email"
+                  value="kapillar@ukr.net"
+                />
+                <input type="hidden" name="form_subject" value="нова заявка" />
+                <!-- END Hidden Required Fields -->
 
-                    <input
-                      type="text"
-                      name="Name"
-                      placeholder="name..."
-                      required
-                    /><br />
-                    <input
-                      type="text"
-                      name="E-mail"
-                      placeholder="E-mail..."
-                      required
-                    /><br />
-                    <input
-                      type="text"
-                      name="Phone"
-                      placeholder="phone..."
-                      required
-                    /><br />
-                    <button class="btn btn-primary">звернутися</button>
-                  </div>
-                </div>
-              </form>
-              <div class="clearfix grid">
-                <div class="section__title">
-                  <h2>ще кілька варіантів</h2>
-                </div>
-                <figure class="effect-oscar wowload fadeInUp">
-                  <img src="images/portfolio/1_1.jpg" alt="img01" />
-                  <figcaption>
-                    <p>проскануй код щоби подзвонити</p>
-                  </figcaption>
-                </figure>
-
-                <figure class="effect-oscar wowload fadeInUp">
-                  <img src="images/portfolio/1_2.jpg" alt="img01" />
-                  <figcaption>
-                    <h2>e-mail</h2>
-                    <p>напишіть нам листа</p>
-                  </figcaption>
-                </figure>
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="name..."
+                  required
+                /><br />
+                <input
+                  type="text"
+                  name="E-mail"
+                  placeholder="E-mail..."
+                  required
+                /><br />
+                <input
+                  type="text"
+                  name="Phone"
+                  placeholder="phone..."
+                  required
+                /><br />
+                <button class="btn btn-primary">звернутися</button>
               </div>
             </div>
+          </form>
+          <div class="clearfix grid">
+            <h3>ще кілька варіантів</h3>
+            <figure class="effect-oscar wowload fadeInUp">
+              <img
+                src="./images/QR/QR-PHONE-MODELIN.png"
+                alt="img01"
+                width="200"
+                style="margin: 0 auto 20px"
+              />
+              <figcaption>
+                <p>проскануй код щоби подзвонити</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="contacts-mail-container fadeInLeft animated">
+            <a href="mailto:kapillar@ukr.net" class="contact-mail"> e-mail</a>
+            <p>напишіть нам лист</p>
           </div>
         </div>
       </section>
