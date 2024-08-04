@@ -49,6 +49,10 @@ h1 {
   text-transform: uppercase;
 }
 
+.subtitle {
+  text-align: center;
+}
+
 @media screen and (min-width: 375px) {
   h1 {
     font-size: 24px;
@@ -449,10 +453,10 @@ img {
     max-width: 768px;
     gap: 24px 24px;
   }
-}
 
-.portfolio-item {
-  width: calc((100% - 24px) / 2);
+  .portfolio-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 #works figcaption a {
@@ -512,13 +516,19 @@ img {
   outline: none;
 }
 
+.qrcode-container {
+  max-width: 320px;
+  border: 1px solid #ceebf0;
+  padding: 40px 0;
+}
+
 .contacts-mail-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 320px;
   padding: 16px;
-  background-color: #aaa;
+  background-color: #ceebf0;
   margin: 0 auto;
   visibility: visible;
   animation-name: fadeInLeft;
@@ -528,6 +538,7 @@ img {
   font-size: 20px;
   font-weight: lighter;
 }
+
 /*contact end   ======== */
 
 /* ========   Footer   ======== */
