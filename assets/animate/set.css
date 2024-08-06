@@ -1,6 +1,6 @@
 .grid {
   position: relative;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   list-style: none;
   text-align: center;
 }

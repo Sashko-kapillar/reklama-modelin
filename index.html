@@ -381,60 +381,68 @@ height="0" width="0" style="display:none;visibility:hidden">
       <!--====   Contact Starts   ====-->
 
       <section class="section" id="contact">
-        <div class="container contactform center">
-          <h2 class="title wowload fadeInUp">заповніть коротеньку форму</h2>
-          <form method="post" style="margin-bottom: 40px">
-            <div class="row wowload fadeInLeftBig">
-              <div class="col-sm-6 col-sm-offset-3 col-xs-12">
-                <!-- Hidden Required Fields -->
-                <input type="hidden" name="project_name" value="modelin.ua" />
-                <input
-                  type="hidden"
-                  name="admin_email"
-                  value="kapillar@ukr.net"
-                />
-                <input type="hidden" name="form_subject" value="нова заявка" />
-                <!-- END Hidden Required Fields -->
+        <div class="container contactform contact-container">
+          <h2 class="title visually-hidden">Контакти</h2>
+          <div class="submit-container">
+            <h3 class="title wowload fadeInUp">заповніть коротеньку форму</h3>
+            <form method="post">
+              <div class="row wowload fadeInLeftBig">
+                <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+                  <!-- Hidden Required Fields -->
+                  <input type="hidden" name="project_name" value="modelin.ua" />
+                  <input
+                    type="hidden"
+                    name="admin_email"
+                    value="kapillar@ukr.net"
+                  />
+                  <input
+                    type="hidden"
+                    name="form_subject"
+                    value="нова заявка"
+                  />
+                  <!-- END Hidden Required Fields -->
 
-                <input
-                  type="text"
-                  name="Name"
-                  placeholder="name..."
-                  required
-                /><br />
-                <input
-                  type="text"
-                  name="E-mail"
-                  placeholder="E-mail..."
-                  required
-                /><br />
-                <input
-                  type="text"
-                  name="Phone"
-                  placeholder="phone..."
-                  required
-                /><br />
-                <button class="btn btn-primary">звернутися</button>
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="name..."
+                    required
+                  /><br />
+                  <input
+                    type="text"
+                    name="E-mail"
+                    placeholder="E-mail..."
+                    required
+                  /><br />
+                  <input
+                    type="text"
+                    name="Phone"
+                    placeholder="phone..."
+                    required
+                  /><br />
+                  <button class="btn btn-primary">звернутися</button>
+                </div>
               </div>
-            </div>
-          </form>
-          <h3 class="subtitle">ще кілька варіантів</h3>
-          <div class="qrcode-container clearfix grid">
-            <figure class="effect-oscar wowload fadeInUp">
-              <img
-                src="./images/QR/QR-PHONE-MODELIN.png"
-                alt="img01"
-                width="200"
-                style="margin: 0 auto 20px"
-              />
-              <figcaption>
-                <p>проскануй код щоби подзвонити</p>
-              </figcaption>
-            </figure>
+            </form>
           </div>
-          <div class="contacts-mail-container fadeInLeft animated">
-            <a href="mailto:kapillar@ukr.net" class="contact-mail"> e-mail</a>
-            <p>напишіть нам лист</p>
+          <div class="qrcode-container clearfix grid">
+            <h3 class="title">ще кілька варіантів</h3>
+            <div class="qr-container">
+              <figure class="effect-oscar wowload fadeInUp">
+                <img
+                  src="./images/QR/QR-PHONE-MODELIN.png"
+                  alt="img01"
+                  width="200"
+                  style="margin: 0 auto; padding: 20px"
+                />
+                <figcaption>
+                  <p>проскануй код щоби подзвонити</p>
+                </figcaption>
+              </figure>
+            </div>
+            <a href="mailto:kapillar@ukr.net" class="btn-primary btn"
+              >листування</a
+            >
           </div>
         </div>
       </section>
