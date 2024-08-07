@@ -461,13 +461,14 @@ img {
 
 @media screen and (min-width: 1200px) {
   .portfolio-list {
-    max-width: 1200px;
+    max-width: 100%;
     flex-wrap: nowrap;
+    gap: 8px;
   }
 
-  .portfolio-item {
+  /* .portfolio-item {
     width: calc((100% - 72px) / 4);
-  }
+  } */
 }
 
 #works figcaption a {
